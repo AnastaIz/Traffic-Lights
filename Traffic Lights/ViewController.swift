@@ -30,6 +30,11 @@ class ViewController: UIViewController {
     }
 
     
-    
+    @IBAction func startPressed(_ sender: UIButton) {
+        startButton.setTitle("NEXT", for: .normal)
+        redView.alpha = 1
+        
+}
+
 }
 
