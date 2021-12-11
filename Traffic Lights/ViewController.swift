@@ -42,9 +42,10 @@ class ViewController: UIViewController {
     
     @IBAction func startPressed(_ sender: UIButton) {
         
+        if startButton.currentTitle == "START" {
             startButton.setTitle("NEXT", for: .normal)
         
-        
+        }
     
     switch currentView {
     case .red:
